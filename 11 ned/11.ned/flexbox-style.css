@@ -1,0 +1,21 @@
+#row1 {
+    display:flex;
+}
+#row2 {
+    display:flex;
+}
+#row3 {
+    display:flex;
+}
+#row4 {
+    display:flex;
+}
+
+#item1 {
+    width: 100%;
+    background-color: hotpink;
+}
+#item2, #item3, #item4, #item5 {
+  width: 25%; 
+  background-color: lightpink;
+}
