@@ -1,0 +1,76 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Navigation */
+.nav {
+    margin-bottom: 20px;
+}
+.nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Tasks Section */
+.container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+}
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+}
+.file-upload input {
+    margin-top: 10px;
+}
+
+/* Pyramid Section */
+.pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+.box.purple {
+    background-color: purple;
+}
+.box.yellow {
+    background-color: yellow;
+}
+.box.red {
+    background-color: red;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
