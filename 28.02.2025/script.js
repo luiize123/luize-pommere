@@ -12,5 +12,5 @@ alert( name.value + " is " + age.value + "y.o.");
 if (age.value <= 0)
  {
     alert("error:incorret age!"); 
- }
+ } 
 }
